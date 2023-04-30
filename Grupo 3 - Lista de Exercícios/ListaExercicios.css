@@ -1,0 +1,26 @@
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+h3::before {
+	content: "\1F680";        
+	}
+
+li:nth-child(odd) {
+    background-color: yellow;
+	width: 50px;
+}
+
+p{
+    text-transform: uppercase;
+}
+
+p[class="importante"] {
+    width: 500px;
+    background-color: yellow
